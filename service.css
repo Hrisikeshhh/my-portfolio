@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white; 
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:12vh;
+    background-color: rgb(2, 2, 61);
+}
+#element{
+    font-size: 3rem;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:16%;
+    align-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   }
+
+   
+nav li a:hover{
+ color: rgb(175, 127, 221);
+ cursor:pointer;
+ font-size: 1.4rem;
+}
+
+#Service{
+    border-bottom:2px solid #9c97f1;
+}
+
+
+.right{
+    display:flex;
+}
+
+nav li:active{
+    background-color: rgb(1,1,39);
+    /* main content */
+}
+.first-section{
+    height: 381vh;
+    
+}
+.first-section p{
+    margin:50px;
+    position: relative;
+    left:100px;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+.services{
+    height: 361vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    outline: 2px solid white;
+    height: 13%;
+    width: 87%;
+}
+
+.inner{
+    margin: 3% 6%;
+}
+
+.inner h1{
+    font-size: 297%;
+    text-decoration: underline;
+}
+
+.inner p{
+   font-size: 150%;
+    text-align: start;
+    margin: 5% -11%;
+    width: 52%;
+    margin-top: 1%;
+}
+
+.inner h4{
+    font-size: 173%;
+}
+
+
+/* footer part */
+.footer{
+    display: flex;
+    height: 23vh;
+    background-color:rgb(1, 1, 24);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    background-color:rgb(1, 1, 24); 
+
+}
+ .footer-second ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-second ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.text-center i{
+   background-color:rgb(1, 1, 24); 
+
+}
+.text-center{
+    text-align: center;
+}
+.footer-third ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-third ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.footer-fourth ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-fourth ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+

@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+   /* outline: 2px solid red; */
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white; 
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:12vh;
+    background-color: rgb(2, 2, 61);
+}
+#element{
+    font-size: 3rem;
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:16%;
+    align-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav li a:hover{
+ color: rgb(175, 127, 221);
+ cursor:pointer;
+ font-size: 1.4rem;
+}
+.right{
+    display:flex;
+   
+}  
+nav li:active{
+    background-color: rgb(1,1,39);
+}
+#About{
+    border-bottom: 2px solid #9c97f1;
+}
+.first-section{
+    height: 120vh;
+}
+.outer{
+    height: 100vh;
+    margin: 5%;
+    /* outline: 2px solid red; */
+   display: flex;
+
+}
+
+#info{
+    height: 100%;
+    width: 100%;
+    /* outline: 2px solid red; */
+    display: flex;
+}
+#info img{
+   object-fit: cover;
+}
+#photo{
+    height: 37%;
+    width: 26%;
+     border: 10px solid aqua; 
+    border-radius: 50%;
+    /* margin-left: 80px;
+    margin-top: 80px; */
+    margin: 8% 9%;
+    background-image: url(portfolio.pic.jpg);
+    background-size: cover;
+}
+#adress a{
+    color:rgb(175, 127, 221);
+    text-decoration: none;
+}
+
+#text{
+    margin-top: 6%;
+    height:100% ;
+    width:60%;
+    line-height: 1.4;
+    font-size: 1.5rem;
+}
+.footer{
+    display: flex;
+    height: 23vh;
+    background-color:rgb(1, 1, 24);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    background-color:rgb(1, 1, 24); 
+
+}
+ .footer-second ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-second ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.text-center i{
+   background-color:rgb(1, 1, 24); 
+
+}
+.text-center{
+    text-align: center;
+}
+.footer-third ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-third ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.footer-fourth ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-fourth ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}

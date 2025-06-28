@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white; 
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 12vh;
+    background-color: rgb(2, 2, 61);
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin:16%;
+    align-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+nav li a:hover{
+ color: rgb(175, 127, 221);
+ cursor:pointer;
+ font-size: 1.4rem;
+}
+
+nav li:active{
+    background-color: rgb(1,1,39);
+}
+
+main hr{
+    border:0;
+    background: #9c97f1;
+    margin: 40px 84px;
+    height: 1.2px;
+}
+.left{
+    font-size: 2rem;
+}
+
+.firstSection{
+    display:flex;
+    justify-content: space-around;
+    margin:5%;
+}
+.firstSection  div{
+    width:30%;
+}
+.leftSection{
+    font-size: 3rem;
+    
+}
+.leftSection p{
+    width: 169%;
+}
+.leftSection div{
+width:169%;
+}
+.rightSection{
+   color: white;
+}
+.rightSection img{
+    height: 79%;
+    width: 79%;
+    object-fit: cover;
+    margin:50px;
+}
+.purple{
+    color:rgb(147, 64, 225);
+}
+.text-grey{
+    color: gray;
+}
+#element{
+     color:rgb(147, 64, 225);
+}
+.buttons button{
+    margin-top: 5%;
+     background-color: rgb(2, 2, 61);
+    border: 2px solid white;
+    border-radius:5% ;
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+     cursor: pointer;
+}
+.buttons button:active{
+     background-color: purple;
+    border: 2px solid white;
+    border-radius:5% ;
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem;
+}
+
+#Home{
+    border-bottom: 2px solid #9c97f1;
+}
+
+.footer{
+    display: flex;
+    height: 23vh;
+    background-color:rgb(1, 1, 24);
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    background-color:rgb(1, 1, 24); 
+
+}
+ .footer-second ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-second ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.text-center i{
+   background-color:rgb(1, 1, 24); 
+
+}
+.text-center{
+    text-align: center;
+}
+.footer-third ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-third ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
+.footer-fourth ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.footer-fourth ul li a:hover{
+    
+    text-decoration: none;
+   color: rgb(175, 127, 221);
+}
