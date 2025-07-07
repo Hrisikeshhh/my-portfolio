@@ -5,19 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service page</title>
     <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
     <header>
         <nav>
             <div class="left"><span id="element"></span></div>
             <div class="right">
-                <ul>
-                     <li ><a href="index.html">Home</a></li>
-                     <li><a href="about.html">About</a></li> 
-                     <li><a href="#" id="Service">Services</a></li> 
-                     <li><a href="projects.html">Projects</a></li>
-                     
+                <ul class="itemList">
+                     <i class="fa-solid fa-xmark" id="close"></i>
+                     <li class="items"><a href="index.html">Home</a></li>
+                     <li class="items"><a href="about.html">About</a></li> 
+                     <li class="items"><a href="#" id="Service">Services</a></li> 
+                     <li class="items"><a href="projects.html">Projects</a></li>
                 </ul>
+                     <i class="fa-solid fa-bars-staggered" id="Bar"></i>
             </div>
         </nav>
     </header>
@@ -29,7 +32,7 @@
             <div class="box">
                <div class="inner">
                   <h1>Landing pages</h1>
-                  <p>A single page clean and responsive website using HTML CSS and Bootstrap.</p>
+                  <p>A single page clean and responsive website using HTML CSS and JavaScript.</p>
                   <h4>₹800 - ₹2000</h4>
                </div>
             </div>
@@ -37,21 +40,22 @@
               <div class="inner">
                   <h1>Portfolio website</h1>
                   <p>3-5 page responsive portfolio site with clean UI and basic animations.</p>
-                  <h4>₹2000 - ₹4000</h4>
+                  <h4>$80</h4>
                </div>
             </div>
             <div class="box">
               <div class="inner">
                   <h1>E-commerce Frontend</h1>
                   <p>Multi-page lay out (Home, Product Listing, Product detail ,Cart) - no backend</p>
-                  <h4>₹3000 - ₹6000</h4>
+                  <h4>$80</h4>
                </div>
             </div>
             <div class="box">
               <div class="inner">
                   <h1>Gsap Animation Add-on</h1>
                   <p>Animated effect with Gsap (scroll triggers,fade-ins,etc)</p>
-                  <h4>₹500 - ₹2000</h4>
+                  <h4 id="overline">₹500 - ₹2000</h4>
+                  <p id="unavailable">⚠️ This service is currently unavailable</p>
                </div>
             </div>
             <div class="box">
@@ -64,7 +68,7 @@
             <div class="box"><div class="inner">
                   <h1>Modern Multi-page Website</h1>
                   <p>Professional Frontend side with section,animations,and responsive layout</p>
-                  <h4>₹4000 - ₹8000</h4>
+                  <h4>$80</h4>
                </div></div>
             <div class="box">
               <div class="inner">
@@ -122,15 +126,8 @@
 <!--javascript-->
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-         var typed = new Typed('#element', {
-      strings: ['service offered.'],
-      typeSpeed: 50,
-    });
-      var typed = new Typed('#service', {
-      strings: ['Service available.'],
-      typeSpeed: 50,
-    });
+    <script src="service.js">
+        
 
     </script>
 </body>

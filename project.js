@@ -40,3 +40,25 @@
             Parent2.style.border = "2px solid red";
         }
     });
+
+
+
+    let bar = document.querySelector("#Bar");
+    let list = document.querySelector(".itemList");
+   let remove = document.querySelector("#close");
+    if(bar)
+   {
+    bar.addEventListener("click",()=>{
+      list.classList.add("slider");
+    })
+   }
+   
+   if(remove)
+   {
+    remove.addEventListener("click",()=>{
+      list.classList.remove("slider");
+    })
+   }
+
+
+   

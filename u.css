@@ -12,17 +12,21 @@ nav{
     justify-content:space-around;
     align-items: center;
     height: 12vh;
+    width: 100vw;
     background-color: rgb(2, 2, 61);
+    position: sticky;
+    top: 0;
 }
-nav ul{
+
+.itemList{
     display:flex;
     justify-content: space-around;
 
 }
 
-nav ul li {
+.items{
     list-style: none;
-    margin:16%;
+    margin:9%;
     align-content: center;
 }
 nav ul li a{
@@ -64,6 +68,7 @@ main hr{
 }
 .leftSection p{
     width: 169%;
+    display: inline-block;
 }
 .leftSection div{
 width:169%;
@@ -76,6 +81,7 @@ width:169%;
     width: 79%;
     object-fit: cover;
     margin:50px;
+    border-radius: 80px;
 }
 .purple{
     color:rgb(147, 64, 225);
@@ -134,6 +140,12 @@ footer{
    background-color:rgb(1, 1, 24); 
 
 }
+
+.firstSection{
+    height: 62vh;
+}
+
+
 .text-center{
     text-align: center;
 }
@@ -156,4 +168,165 @@ footer{
     
     text-decoration: none;
    color: rgb(175, 127, 221);
+}
+
+#Bar{
+    display: none;
+
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:600px)
+{
+    #Bar{
+    display: inline-block;
+    font-size: 187%;
+    margin-left: 90%;
+    }
+    
+    #close{
+        display: inline-block;
+        font-size: 240%;
+        margin-left: 12%;
+        margin-top: -3%;
+        margin-bottom: -7%;
+    }
+
+    nav{
+        width: 100vw;
+    }
+
+
+    .items{
+        margin: -10% 37%;
+    }
+    .left {
+    font-size: 1.5rem;
+    }
+
+
+    .itemList{
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -70vw;
+        background-color: rgb(28 28 112);
+        border-bottom-left-radius: 29px;
+        height: 47%;
+        transition: 0.8s ease;
+    }
+    
+    .slider{
+        right: 0;
+        transition: 0.8s ease;
+    }
+
+    .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+    flex-direction: column;
+    height: 64vh;
+    }
+
+   .rightSection {
+    display: none;
+
+    }
+
+    .leftSection p {
+    width: 155%;
+    font-size: 49%;
+    display: inline;
+   }
+
+   .leftSection div {
+    width: 169%;
+    font-size: 77%;
+   }
+
+
+   .firstSection div {
+    width: 75%;
+    margin: 1% 6%;
+   }
+
+   #element {
+    display: inline-block;
+    color: rgb(147, 64, 225);
+    font-size: 40%;
+   }
+
+  .buttons button {
+    margin-top: 4%;
+    background-color: rgb(2, 2, 61);
+    border: 2px solid white;
+    border-radius: 5%;
+    font-size: 24%;
+    color: white;
+    padding: 5% 1%;
+    cursor: pointer;
+    width: 31%;
+}
+
+.buttons button:active{
+     background-color: purple;
+    border: 2px solid white;
+    border-radius:5% ;
+    font-size: 24%;
+    color: white;
+    padding: 5% 1%;
+    width: 31%;
+}
+
+footer {
+    background-color: rgb(1, 1, 24);
+    font-size: 58%;
+}
+}
+
+@media(min-width:600px) and (max-width:850px)
+{
+    .items {
+    list-style: none;
+    margin: 4%;
+    align-content: center;
+}
+
+.leftSection p {
+    width: 169%;
+    font-size: 59%;
+}
+
+#element {
+    color: rgb(147, 64, 225);
+    font-size: 59%;
+}
+
+.leftSection div {
+    width: 169%;
+    font-size: 59%;
+}
+
+.buttons button {
+    margin-top: 5%;
+    background-color: rgb(2, 2, 61);
+    border: 2px solid white;
+    border-radius: 5%;
+    font-size: 0.6rem;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+main{
+    height: 78vh;
+}
+
+
 }

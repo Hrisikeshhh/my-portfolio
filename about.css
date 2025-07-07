@@ -23,9 +23,9 @@ nav ul{
 
 }
 
-nav ul li {
+.items{
     list-style: none;
-    margin:16%;
+    margin:10%;
     align-content: center;
 }
 nav ul li a{
@@ -33,6 +33,7 @@ nav ul li a{
     text-decoration: none;
    
 }
+
 nav li a:hover{
  color: rgb(175, 127, 221);
  cursor:pointer;
@@ -71,13 +72,14 @@ nav li:active{
 #photo{
     height: 37%;
     width: 26%;
-     border: 10px solid aqua; 
+     border: 10px solid white; 
     border-radius: 50%;
     /* margin-left: 80px;
     margin-top: 80px; */
     margin: 8% 9%;
-    background-image: url(portfolio.pic.jpg);
+      background-image: url(pics/profile.png);
     background-size: cover;
+    background-position: center;
 }
 #adress a{
     color:rgb(175, 127, 221);
@@ -91,6 +93,11 @@ nav li:active{
     line-height: 1.4;
     font-size: 1.5rem;
 }
+
+#info{
+    margin: 100px;
+}
+
 .footer{
     display: flex;
     height: 23vh;
@@ -139,3 +146,152 @@ footer{
     text-decoration: none;
    color: rgb(175, 127, 221);
 }
+
+#Bar{
+    display: none;
+
+}
+
+#close{
+    display: none;
+}
+
+@media(max-width:600px)
+{
+    #Bar{
+    display: inline-block;
+    font-size: 187%;
+    margin-left: 90%;
+    }
+    
+    #close{
+        display: inline-block;
+        font-size: 240%;
+        margin-left: 12%;
+        margin-top: -3%;
+        margin-bottom: -7%;
+    }
+
+   
+    nav{
+        width: 100vw;
+    }
+
+    #element {
+    font-size: 2rem;
+    }
+
+    .items{
+        margin: -10% 37%;
+    }
+
+    .left {
+    font-size: 1.5rem;
+    }
+
+
+    .itemList{
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: -70vw;
+        background-color: rgb(28 28 112);
+        border-bottom-left-radius: 29px;
+        height: 47%;
+        transition: 0.8s ease;
+    }
+    
+    .slider{
+        right: 0;
+        transition: 0.8s ease;
+    }
+
+    #text {
+    margin-top: 6%;
+    height: 104%;
+    width: 61%;
+    line-height: 1.4;
+    font-size: 0.5rem;
+    }
+
+    #info{
+        margin: 30% -1%;
+    }
+
+    .outer {
+    height: 374px;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#photo {
+    height: 37%;
+    width: 26%;
+     border: 0px solid white; 
+    border-radius: 50%;
+    margin: 8% 9%;
+      background-image: url(pics/profile.png);
+    background-size: cover;
+}
+
+.first-section {
+    height: 74vh;
+}
+ footer{
+    background-color: rgb(1, 1, 24);
+    font-size: 58%;
+ }
+}
+
+@media(min-width:600px) and (max-width:1050px)
+{
+    #element {
+    font-size: 1.4rem;
+}
+
+.items{
+    list-style: none;
+    margin: 9%;
+    align-content: center;
+    margin: 5%;
+}
+
+#photo {
+    height: 27%;
+    display: none;
+    width: 32%;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin: 8% 9%;
+      background-image: url(pics/profile.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#text {
+    margin-top: 6%;
+    height: 100%;
+    width: 100%;
+    line-height: 1.4;
+    font-size: 1.3rem;
+}
+
+
+}
+
+@media(min-width:375px) and (max-width:600px)
+{
+    #photo {
+        height: 59%;
+        width: 27%;
+        border: 0px solid white;
+        border-radius: 50%;
+        margin: 8% 9%;
+         background-image: url(pics/profile.png);
+        background-size: cover;
+    }
+}
+
