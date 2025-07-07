@@ -262,17 +262,17 @@ footer{
     font-size: 40%;
    }
 
-  .buttons button {
-    margin-top: 4%;
-    background-color: rgb(2, 2, 61);
-    border: 2px solid white;
-    border-radius: 5%;
-    font-size: 24%;
-    color: white;
-    padding: 5% 1%;
-    cursor: pointer;
-    width: 31%;
-}
+      .buttons button {
+        margin-top: 4%;
+        background-color: rgb(2, 2, 61);
+        border: 2px solid white;
+        border-radius: 5%;
+        font-size: 31%;
+        color: white;
+        padding: 5% 1%;
+        cursor: pointer;
+        width: 57%;
+    }
 
 .buttons button:active{
      background-color: purple;
